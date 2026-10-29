@@ -151,11 +151,19 @@ remove_quarantine() {
 install_launch_agent() {
     print_step "Installing LaunchAgent"
     mkdir -p "$LAUNCH_AGENTS"
+    mkdir -p "$HOME/.desktop-pet"
 
     # Stop existing instance if running
     launchctl bootout "gui/$(id -u)/com.acabelloj.desktop-pet" 2>/dev/null \
         || launchctl unload "$PLIST" 2>/dev/null \
         || true
+
+    # Force kill any lingering processes to release pet.lock
+    if pgrep -x "$BINARY_NAME" &>/dev/null; then
+        pkill -x "$BINARY_NAME" || true
+        sleep 1
+        pkill -9 -x "$BINARY_NAME" 2>/dev/null || true
+    fi
 
     # Write plist
     cat > "$PLIST" <<PLIST
@@ -189,13 +197,20 @@ PLIST
 
 verify_running() {
     print_step "Verifying"
-    sleep 1
-    if pgrep -x "$BINARY_NAME" &>/dev/null; then
-        print_ok "DesktopPet is running!"
-    else
-        print_err "DesktopPet doesn't seem to be running. Check /tmp/desktop-pet.err for details."
-        echo "  You can also start it manually: launchctl kickstart gui/$(id -u)/com.acabelloj.desktop-pet"
-    fi
+    
+    local retries=5
+    while (( retries > 0 )); do
+        sleep 1.5
+        if pgrep -x "$BINARY_NAME" &>/dev/null; then
+            print_ok "DesktopPet is running!"
+            return 0
+        fi
+        (( retries-- ))
+    done
+
+    print_err "DesktopPet failed to start. Check /tmp/desktop-pet.err for details."
+    echo "  You can try starting it manually: launchctl kickstart gui/$(id -u)/com.acabelloj.desktop-pet"
+    die "Installation verification FAILED."
 }
 
 # ── main ─────────────────────────────────────────────────────────────────────
