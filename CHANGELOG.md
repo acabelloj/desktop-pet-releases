@@ -139,14 +139,13 @@
 - Floating developer metrics HUD; switching worlds now starts a fresh world
 
 ### Performance
-- dt-scaled ambient movement with adaptive frame rate
+- Ambient creatures move at the same speed whatever the frame rate
 
 ## [0.12.1] - 2026-06-24
 
 ## Performance
 
-- Centralized, battery-aware frame scheduling via a new `FrameDriver`, reducing CPU and power use when on battery.
-- Added a developer FPS panel for diagnosing rendering performance.
+- Lower CPU and power use on battery: the pet draws fewer frames when it can.
 
 ## [0.12.0] - 2026-06-24
 
@@ -173,7 +172,7 @@
 ## [0.10.2] - 2026-06-23
 
 ### Fixed
-- Welcome screen: fix severe lag when running as an installed background agent by using CVDisplayLink instead of Timer, dodging macOS App Nap throttling
+- Welcome screen: fix severe lag when the pet starts at login
 - Welcome screen: increase deer animation framerate and walk speed to better suit the small card space
 
 ## [0.10.1] - 2026-06-23
@@ -239,8 +238,8 @@
 ### Changed
 - Default control panel window size bumped to 900×820
 - "Update available" block in sidebar: stacked text + full-width button with explicit hover/active states
-- Verified-build tooltip repositioned to the right of the sidebar with an opaque background and hover bridge
-- WKWebView preloaded 0.5s after app launch and kept alive across toggles, eliminating the ~300ms boot delay and reload flash on subsequent opens
+- Verified-build tooltip moved to the right of the sidebar and is easier to read
+- The control panel opens instantly, without a delay or a flash
 
 ## [0.5.0] - 2026-04-22
 
@@ -254,9 +253,7 @@
 - Control panel opens on the Pets tab by default
 
 ### Fixed
-- Sidebar selection no longer highlights the wrong row when tab indices don't match DOM order
-
-# Changelog
+- Sidebar selection no longer highlights the wrong row
 
 ## [0.4.1] - 2026-04-22
 
@@ -271,7 +268,7 @@
 - Day/night cycle with time-of-day tinting baked into the ground palette; spawn rate, population cap, and behaviors shift across dawn/day/dusk/night
 - Per-instance personality on spawned creatures (speed, graze bias, flight radius, flee cooldown)
 - Hand-drawn pixel terrain: layered dirt, soil edge, grass blades, pebbles, occasional flowers
-- Credits tab (replaces the old footer modal), with external links opening via `NSWorkspace`
+- Credits tab (replaces the old footer modal), with links that open in your browser
 
 ### Changed
 - Control panel reorganized into Pet / Ambient / General sidebar groups
@@ -304,4 +301,4 @@
 
 ## [0.1.0] - 2026-03-01
 
-- Initial internal release
+- First release
