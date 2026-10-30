@@ -87,9 +87,9 @@ The wiggly Bacterium or the caffeinated Alien, each with its own moods and way o
 
 Turn on a world and the bottom of your screen becomes a place. Each one follows the real time of day and the season.
 
-<p align="center"><img src="assets/meadow.gif" width="100%" alt="Pixel-art deer running across a strip of grass at the bottom of the screen"></p>
+<p align="center"><img src="assets/meadow.gif" width="100%" alt="Pixel-art butterflies fluttering over a strip of spring grass dotted with flowers"></p>
 
-**🌿 Meadow** — Grass, soil and wildlife. Deer graze, wander off and bolt across the bottom of your screen.
+**🌿 Meadow** — A strip of grass that lives through the year. In spring, flowers bloom a few at a time, and butterflies, bees and birds come out when the day is warm.
 
 <p align="center"><img src="assets/sea.gif" width="100%" alt="A pixel-art galleon sailing on a dark night sea in light rain"></p>
 
