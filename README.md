@@ -91,7 +91,7 @@ Turn on a world and the bottom of your screen becomes a place. Each one follows 
 
 **🌿 Meadow** — A strip of grass that lives through the year. In spring, flowers bloom a few at a time, and butterflies, bees and birds come out when the day is warm.
 
-<p align="center"><img src="assets/sea.gif" width="100%" alt="A pixel-art galleon sailing on a dark night sea in light rain"></p>
+<p align="center"><img src="assets/sea.gif" width="100%" alt="A pixel-art shark fin gliding along a dark night sea in light rain, with gulls flying overhead"></p>
 
 **🌊 Sea** — Rain, storms and lightning, gulls, buoys and sharks, and the odd ship on the horizon: a galleon, or the Titanic and its iceberg.
 
