@@ -1,6 +1,4 @@
-<p align="center"><img src="assets/logo/peek.svg" alt="" width="96"></p>
-
-<h1 align="center">DesktopPet</h1>
+<h1 align="center"><img src="assets/logo/desktoppet.svg" alt="DesktopPet" width="420"></h1>
 
 <p align="center"><strong>A living world along the bottom of your Mac's screen.</strong><br>
 Wild animals, sharks and astronauts, going about their day while you work.</p>
