@@ -1,3 +1,19 @@
+## [0.29.0] - 2026-11-01
+
+### Added
+
+- **A logo.** Meet Peek, a dark animal rising from the bottom edge on a coral field. Desktop Pet now has its own app icon and menu bar glyph.
+
+### Changed
+
+- **No more welcome screen.** The Pet or World question and its full-screen animation are gone. Launch now plays a short logo splash that takes no clicks and doesn't take focus, then opens whatever was on last time.
+- **The first launch after updating opens the World.** Your choice is remembered from then on.
+- The Credits tab in the control panel is now called Support.
+
+### Removed
+
+- The Credits menu item.
+
 ## [0.28.0] - 2026-11-01
 
 ### Added
