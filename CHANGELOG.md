@@ -1,3 +1,9 @@
+## [0.29.1] - 2026-11-01
+
+### Changed
+
+- **A better disk image.** The mounted disk now shows the logo, and its window has an arrow to Applications and the steps for allowing the app the first time you open it.
+
 ## [0.29.0] - 2026-11-01
 
 ### Added
