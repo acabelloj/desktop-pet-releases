@@ -1,9 +1,6 @@
-<h1 align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/desktoppet-on-dark.svg">
-    <img src="assets/logo/desktoppet-on-light.svg" alt="DesktopPet" width="400">
-  </picture>
-</h1>
+<p align="center"><img src="assets/logo/peek.svg" alt="" width="96"></p>
+
+<h1 align="center">DesktopPet</h1>
 
 <p align="center"><strong>A living world along the bottom of your Mac's screen.</strong><br>
 Wild animals, sharks and astronauts, going about their day while you work.</p>
