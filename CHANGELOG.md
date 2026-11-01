@@ -1,3 +1,31 @@
+## [0.27.0] - 2026-11-01
+
+### Added
+
+- **A new meadow.** Stag, doe, buck, reindeer and moose replace the old creatures, with all-new art and new moves: looking around, shaking, grooming, stretching and a signature move for each species.
+- **Animals with minds of their own.** Each one now decides for itself based on hunger, tiredness and nerves. They graze in routines, turn with their whole body, react to your cursor, pass alarm to each other and keep their own bedtimes.
+- **All-new art for the sea and the Moon.** The ships, iceberg, buoys, gulls, floating objects, shark fins, lander, astronauts, rover and boulders have all been redrawn.
+- **How often.** Every creature now has a Never, Rare, Sometimes or Often choice in place of an on/off switch.
+- **Pick your shark fins.** Choose from nine fin types.
+
+### Changed
+
+- **Everything is true to scale.** Every object is sized from its real dimensions on one shared scale, and each world applies a single zoom to everything in it. The moose stands 2.1 m at the shoulder, and the Titanic is its full 269 m. The world strip is slightly taller to fit them.
+- **Creature choices reset once.** The first launch of this version clears your saved creature choices, so all the new creatures can appear. Set them again under How often.
+- **A cleaner World tab.** Creatures show their sprites, emoji are gone, and clicking a choice no longer reloads the page or loses your place.
+- Sharks now surface where you can see them and swim faster.
+
+### Removed
+
+- The chicken, snake, rat, bat, garden birds, cats, songbirds, butterflies and bees, along with their control panel sliders.
+- The flag beside the lander.
+
+### Fixed
+
+- Sea and Moon sprites stay readable on light desktops. Pale outlines no longer disappear, the lander no longer shows gaps between its panels, and thin parts no longer break up on non-Retina screens.
+- Meadow sprites no longer show a pale fringe at night on non-Retina screens.
+- Animals now wake up at dawn instead of staying stuck asleep, and they stay as long as they should rather than leaving early.
+
 ## [0.26.0] - 2026-10-29
 
 ### Added
@@ -139,14 +167,13 @@
 - Floating developer metrics HUD; switching worlds now starts a fresh world
 
 ### Performance
-- dt-scaled ambient movement with adaptive frame rate
+- Ambient creatures move at the same speed whatever the frame rate
 
 ## [0.12.1] - 2026-06-24
 
 ## Performance
 
-- Centralized, battery-aware frame scheduling via a new `FrameDriver`, reducing CPU and power use when on battery.
-- Added a developer FPS panel for diagnosing rendering performance.
+- Lower CPU and power use on battery: the pet draws fewer frames when it can.
 
 ## [0.12.0] - 2026-06-24
 
@@ -173,7 +200,7 @@
 ## [0.10.2] - 2026-06-23
 
 ### Fixed
-- Welcome screen: fix severe lag when running as an installed background agent by using CVDisplayLink instead of Timer, dodging macOS App Nap throttling
+- Welcome screen: fix severe lag when the pet starts at login
 - Welcome screen: increase deer animation framerate and walk speed to better suit the small card space
 
 ## [0.10.1] - 2026-06-23
@@ -239,8 +266,8 @@
 ### Changed
 - Default control panel window size bumped to 900×820
 - "Update available" block in sidebar: stacked text + full-width button with explicit hover/active states
-- Verified-build tooltip repositioned to the right of the sidebar with an opaque background and hover bridge
-- WKWebView preloaded 0.5s after app launch and kept alive across toggles, eliminating the ~300ms boot delay and reload flash on subsequent opens
+- Verified-build tooltip moved to the right of the sidebar and is easier to read
+- The control panel opens instantly, without a delay or a flash
 
 ## [0.5.0] - 2026-04-22
 
@@ -254,9 +281,7 @@
 - Control panel opens on the Pets tab by default
 
 ### Fixed
-- Sidebar selection no longer highlights the wrong row when tab indices don't match DOM order
-
-# Changelog
+- Sidebar selection no longer highlights the wrong row
 
 ## [0.4.1] - 2026-04-22
 
@@ -271,7 +296,7 @@
 - Day/night cycle with time-of-day tinting baked into the ground palette; spawn rate, population cap, and behaviors shift across dawn/day/dusk/night
 - Per-instance personality on spawned creatures (speed, graze bias, flight radius, flee cooldown)
 - Hand-drawn pixel terrain: layered dirt, soil edge, grass blades, pebbles, occasional flowers
-- Credits tab (replaces the old footer modal), with external links opening via `NSWorkspace`
+- Credits tab (replaces the old footer modal), with links that open in your browser
 
 ### Changed
 - Control panel reorganized into Pet / Ambient / General sidebar groups
@@ -304,4 +329,4 @@
 
 ## [0.1.0] - 2026-03-01
 
-- Initial internal release
+- First release
