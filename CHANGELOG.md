@@ -1,3 +1,23 @@
+## [0.28.0] - 2026-11-01
+
+### Added
+
+- **Animals meet each other.** Two of the same species now walk up to each other and interact: stags, bucks, reindeer and moose lock antlers, and does cuddle, box or lie down together. Tired animals tend to rest, and a scare ends a meeting early.
+- **Choose how many.** Each animal now has a number control next to How often, so you can have from one to five of it.
+- **More plants in the meadow.** Tussocks, timothy, oat grass, clover and rushes grow in patches through the grass, and rushes gather around spring puddles.
+- **Shadows that follow the sun.** Animals cast a shadow to the right in the morning, directly below at noon and to the left in the evening. Shadows fade as the sun gets low, weaken in the rain and disappear at night.
+
+### Changed
+
+- **Animals now stand in the grass.** Grass grows to its real height, in front of the animals as well as behind them. Hooves disappear into it, and blades bend around each leg and spring back. Wind now travels along the meadow in waves.
+- **Real ground under the grass.** The flat brown stripes are now dark topsoil over paler earth, with roots, stones and uneven layers. The ground cracks in dry weather.
+- **Truer moose legs.** All four legs are now dark at the top and a muted grey-tan below the knee, in place of the bright pale hind legs.
+- Fireflies fly a little higher, just above the taller grass, and their glow reaches further.
+
+### Fixed
+
+- Firefly light now lands on the grass around the firefly instead of in the wrong spot.
+
 ## [0.27.0] - 2026-11-01
 
 ### Added
