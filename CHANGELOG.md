@@ -1,3 +1,15 @@
+## [0.29.2] - 2026-11-02
+
+### Fixed
+
+- **The Meadow no longer crashes when the strip resizes.** Changing the screen size or display setup could close the app with no warning. This was the "keeps dying" crash.
+- **No more crash at launch with no display.** Opening the app with the lid closed, or with the display asleep or unplugged, used to stop it. It now starts and fits the screen when one returns.
+- **No more crash when a window gets narrower than the pet.** Dragging the window the pet is standing on, or showing a speech bubble in a very narrow space, could stop the app.
+
+### Changed
+
+- **A little less work on every frame in the Sea.** The sea's weather is worked out once a day instead of on every frame.
+
 ## [0.29.1] - 2026-11-01
 
 ### Changed
