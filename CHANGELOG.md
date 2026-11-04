@@ -1,3 +1,23 @@
+## [1.0.0] - 2026-11-05
+
+### Added
+
+- **erewh horizon.** Desktop Pet is now erewh horizon, no. 01 from erewh: a living world along the bottom of your screen, a Meadow, the Sea or the Moon, running on the real sun, moon and seasons.
+- **A new menu.** Click the menu bar icon and the world you're watching grows into a panel. The world plays behind it, live, under the sky of the hour. Pick a world from its cover, then its mode, and watch your horizon change as you hover. Closing it switches off like an old TV.
+- **Modes for every world.** Choose the Meadow's season, the Sea's state or the Moon's sky speed, or leave them on Auto to follow the real calendar and weather. Hover to try one, click to keep it.
+- **Every eclipse from 2020 to 2040.** The Moon's eclipse list now covers twenty years, and it opens instantly.
+- **A new splash.** Peek rises over the real sky of the hour while erewh's tagline types the world's own word.
+
+### Changed
+
+- **Seasons look like seasons.** Choosing Winter now covers the Meadow in snow; before, the season only changed its colours.
+- The menu can be dragged by its top bar and resized from its edges.
+
+### Removed
+
+- **The desktop pet.** erewh horizon is worlds only.
+- The Lighting switch. Lighting is now off for everyone.
+
 ## [0.29.2] - 2026-11-02
 
 ### Fixed
