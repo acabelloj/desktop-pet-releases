@@ -1,3 +1,23 @@
+## [1.1.0] - 2026-11-05
+
+### Added
+
+- **Use the keyboard in the menu.** The left and right arrow keys move between the worlds and between a world's modes.
+
+### Changed
+
+- **A mode changes only when you click it.** Hovering a season or a sea state shows what it is; your world stays as it is until you choose.
+- **Closing the menu slides it away.** It drops off the bottom of the screen. Only Turn off switches it off like an old TV.
+- **Cleaner changes in the menu.** Opening a world's details and coming back are one movement instead of two pages blending, and a new world or mode opens along the horizon instead of fading through the old one.
+- **A quicker menu.** Clicks and hovers answer at once, and the menu uses far less of your Mac while it is open.
+- **Smoother fast-forward on the Moon.**
+
+### Fixed
+
+- **The world stays on your main display.** With more than one screen, the world could appear in the middle of a screen, or move to whichever screen you last clicked. It now lives along the bottom of the display with the menu bar, and follows it if you change your main display.
+- **Feeding the Meadow follows your pointer exactly**, also with the Dock at the bottom of the screen.
+- **The menu's ⋯ list no longer opens already open.**
+
 ## [1.0.0] - 2026-11-05
 
 ### Added
