@@ -192,7 +192,7 @@ PLIST
     launchctl bootstrap "gui/$(id -u)" "$PLIST" 2>/dev/null \
         || launchctl load "$PLIST"
 
-    print_ok "LaunchAgent registered — pet starts at login"
+    print_ok "LaunchAgent registered — erewh horizon starts at login"
 }
 
 verify_running() {
@@ -229,6 +229,6 @@ install_launch_agent
 verify_running
 
 echo ""
-echo "  All done! Your pixel pet is now running."
+echo "  All done! erewh horizon is now running."
 echo "  Look for the 👾 in your menu bar to control it."
 echo ""
