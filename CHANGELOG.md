@@ -1,3 +1,23 @@
+## [1.2.0] - 2026-11-05
+
+### Added
+
+- **Updates arrive on their own.** erewh horizon checks for a new version at launch, every few hours and when your Mac wakes, downloads it in the background and tells you when it's ready. Nothing changes until you choose Restart.
+- **Keep the version you have.** Turn off Automatic updates and erewh horizon stays on your current version: no checks, no downloads.
+- **Choose which screen the world lives on.** With more than one display, pick the menu-bar screen or any other. The choice is remembered, and if that display is unplugged the world waits on the menu-bar screen until it comes back.
+- **A Settings page.** Where the world lives, automatic updates and the app's version and signature now have a page of their own, opened from the ⋯ menu.
+
+### Changed
+
+- **A quieter change between worlds.** Hovering or choosing a world in the menu dims softly into the new one instead of opening the horizon.
+- **The Sea is easier on your battery.** It now uses less than half the processor time it did, and looks just the same.
+- **The app is called erewh horizon** in Finder, Spotlight, Launchpad, the menu and the disk image.
+
+### Fixed
+
+- **Updates never get stuck on "Updating…".** A failed update now says so and lets you try again.
+- **The update button fits how you installed erewh horizon.** A Homebrew install offers the brew command to copy, a copy still on the disk image asks you to move it to Applications first, and a copy in a folder you can't change offers the download page.
+
 ## [1.1.0] - 2026-11-05
 
 ### Added
