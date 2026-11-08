@@ -1,3 +1,28 @@
+## [1.3.0] - 2026-11-08
+
+### Added
+
+- **Worlds come on cartridges.** Each world in the menu is now an erewh cartridge on a shelf. Choose one and it slides into the slot.
+- **Editions, and a rare holo edition.** Every Mac gets its own edition of each world, with its own label picture. About one Mac in twelve gets a holo edition, with foil that catches the light as you move the pointer.
+- **Choose the screen right from the menu.** With more than one display, click "now playing on …" above the world's name to see your displays as they are arranged. Hover one to light it up, click it to move the world there.
+- **A new horizon on a new screen.** Plug in a display and a warm glow dawns briefly along its bottom edge.
+- **See what's new.** Before you restart for an update, read what it brings. After updating, a quiet note links to the changes, and Settings lists every version's notes.
+- **The menu is a Mac window.** It has the familiar window buttons, drags by its title bar, and the green button zooms it to fill the space above the world.
+- **Update progress.** An update you start shows how far along the download is.
+
+### Changed
+
+- **The Sea in perspective.** Near water moves fastest and far water slows toward the horizon, with whitecaps breaking up close.
+- **The Moon's ground is pixel art.** It sits on the same grid as the Meadow, with grain, pebbles and boulders that cast shadows.
+- **Calm worlds are easier on your battery.** When nothing moves quickly, the Meadow and the Sea draw less often, and look just the same.
+- **One choice per display in Settings.** Each screen is listed once, and your Mac's own screen is called "This Mac".
+- **Straight back to your world after an update.** The app skips the splash and the world rises right back in.
+
+### Fixed
+
+- **A failed update says why.** It tells you, for example, to check your connection, and after a second try offers the download page.
+- **The menu stays solid at any size.** It no longer turns see-through when made smaller than its opening size.
+
 ## [1.2.0] - 2026-11-05
 
 ### Added
