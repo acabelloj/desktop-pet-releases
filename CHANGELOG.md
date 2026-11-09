@@ -1,3 +1,20 @@
+## [1.4.0] - 2026-11-09
+
+### Added
+
+- **Choose the size of your world.** Settings → World screen has a new Size row: Extra small, Small, Normal or Large. The whole world grows or shrinks together, and your choice is remembered.
+- **A Moon without the sky.** A new Sky switch in the Moon's details hides the stars, planets, Sun and Earth, leaving only the ground, the lander and the astronauts.
+- **Unlock the holo editions.** In Settings → holo editions, copy your Mac's ID and send it to erewh, then paste the code you get back to turn every world's cartridge holo.
+
+### Changed
+
+- **The Moon previews instantly.** Hovering the Moon's cartridge in the menu shows it straight away.
+
+### Fixed
+
+- **No cartridge plays while the world is off.** The slot stays empty until you turn the world back on, and hovering a cartridge no longer restarts its preview.
+- **Cartridge labels are easier to read.** The edition name and number on each label are now a deeper coral.
+
 ## [1.3.0] - 2026-11-08
 
 ### Added
