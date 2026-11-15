@@ -1,3 +1,26 @@
+## [1.5.0] - 2026-11-15
+
+### Added
+
+- **Light from the real sky.** Every world is lit by where the sun and the Moon really are. The light warms at sunrise, cools in the shade and dims under passing clouds, and the animals, ships and astronauts are lit from the sun's side, with soft shadows where one part hides another.
+- **Shadows that follow the sun.** The Meadow's animals cast shadows across the grass and onto each other: long and faint at dawn, short at noon, gone at night.
+- **Choose whose sky it is.** Settings → The sky over sets where on Earth the sun and Moon are worked out for: from your time zone, a city you pick, or this Mac's location. Your location is used only if you choose it, and it stays on your Mac. A place in the south gets southern seasons.
+- **A redrawn Sea.** New buoys and lanterns, gull, duck, bottle and paper boat, ships drawn in full detail, and a tabular iceberg drifting past.
+- **Traced light, on or off.** Settings → Experiments → Traced light. Turn it off to light everything from its outline alone.
+
+### Changed
+
+- **The Moon keeps to its real path.** It rises and sets where it really does, and fades in as the twilight deepens.
+- **Dawn and dusk take as long as they do where you are.** About half an hour near the equator, nearly two hours in the far north in winter.
+- **The sea's glitter follows the sun and the Moon.** It lies on the sunrise side in the morning and the sunset side in the evening.
+- **Fireflies, lamps and lightning light up what's around them.** Even under a bright Moon.
+- **Kinder to your battery.** Optional extras run only when your Mac is plugged in, and Low Power Mode holds every world to a steady, lighter pace.
+- **The menu opens and closes smoothly.** The details page keeps its title in view as it scrolls.
+
+### Fixed
+
+- **No pale outline around the Meadow's animals.** It showed on a dark desktop.
+
 ## [1.4.0] - 2026-11-09
 
 ### Added
