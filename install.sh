@@ -4,7 +4,7 @@ set -euo pipefail
 # DesktopPet installer
 # Usage: curl -fsSL <url>/install.sh | bash
 # Or with a custom binary URL:
-#   DESKTOP_PET_URL=https://... bash install.sh
+#   HORIZON_URL=https://... bash install.sh   (the old DESKTOP_PET_URL still works)
 
 BINARY_NAME="DesktopPet"
 INSTALL_DIR="$HOME/.local/bin"
@@ -43,7 +43,7 @@ check_arch() {
 }
 
 download_binary() {
-    local url="${DESKTOP_PET_URL:-https://github.com/acabelloj/desktop-pet-releases/releases/latest/download/DesktopPet}"
+    local url="${HORIZON_URL:-${DESKTOP_PET_URL:-https://github.com/acabelloj/desktop-pet-releases/releases/latest/download/DesktopPet}}"
 
     print_step "Downloading DesktopPet"
     mkdir -p "$INSTALL_DIR"
@@ -61,7 +61,7 @@ download_binary() {
 }
 
 verify_checksum() {
-    local sha_url="${DESKTOP_PET_SHA256_URL:-https://github.com/acabelloj/desktop-pet-releases/releases/latest/download/sha256.txt}"
+    local sha_url="${HORIZON_SHA256_URL:-${DESKTOP_PET_SHA256_URL:-https://github.com/acabelloj/desktop-pet-releases/releases/latest/download/sha256.txt}}"
 
     print_step "Verifying SHA256 checksum"
 
@@ -102,7 +102,7 @@ verify_checksum() {
 }
 
 verify_signature() {
-    local sig_url="${DESKTOP_PET_SIG_URL:-https://github.com/acabelloj/desktop-pet-releases/releases/latest/download/DesktopPet.sig}"
+    local sig_url="${HORIZON_SIG_URL:-${DESKTOP_PET_SIG_URL:-https://github.com/acabelloj/desktop-pet-releases/releases/latest/download/DesktopPet.sig}}"
 
     print_step "Verifying SSH signature"
 
@@ -151,7 +151,6 @@ remove_quarantine() {
 install_launch_agent() {
     print_step "Installing LaunchAgent"
     mkdir -p "$LAUNCH_AGENTS"
-    mkdir -p "$HOME/.desktop-pet"
 
     # Stop existing instance if running
     launchctl bootout "gui/$(id -u)/com.acabelloj.desktop-pet" 2>/dev/null \
